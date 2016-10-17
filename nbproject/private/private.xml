@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/test/Logica/ControladorCategoriasIT.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/CerrarSesionServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/CopiarImagenesServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/VaciarCarritoServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/VerPromosServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/BusquedaServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/userCheckServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/test/Logica/ControladorClientesIT.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/FiltroAgregarLog.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/InformacionServicioServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/sendEmailConfirmation.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/InformacionProveedorServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/DatosLogueadoServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/InformacionPromocionServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/VerServiciosServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/AgregarReservaServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/verProveedoresServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/VerCarritoServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/VerReservaServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/emailCheckServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/IniciarSesionServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/SimulacionLogeoServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/IndexServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/uploadImage.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/AyudaServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/ProductoDeReservaServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/test/Logica/ControladorProveedoresIT.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/CrearUsuarioServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/CategoriasServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/DatosDePruebaServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/EliminarProductoDelCarrito.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/test/Logica/ControladorPromocionesIT.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/CancelarReservaServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/AgregarAlCarritoServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/CatsServlet.java</file>
+            <file>file:/C:/Users/usuario/Documents/NetBeansProjects/H4T-Web/src/java/VerPerfilServlet.java</file>
+        </group>
+    </open-files>
+</project-private>

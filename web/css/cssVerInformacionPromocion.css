@@ -1,0 +1,206 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-oct-2016, 0:16:04
+    Author     : usuario
+*/
+
+.contenedorInformacionPromociones{
+    /*border:1px solid black;*/
+    position: relative;
+    width: 100%;
+    height: 797px;
+    margin: auto;
+    top: 107px;
+    padding:2% 25%;
+    overflow-y: auto;
+    z-index: 0;
+}
+
+.nombrePromocion{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.imgProveedor{
+    width: 35%;
+    height: 35;
+    float: left;
+    margin-left: 5%;
+}
+
+.tblPromo tr td{
+    /*border: 1px solid black;*/
+    font-size: 16px;
+    padding: 15px;
+}
+
+.tblPromo{
+    margin-left: 50%;
+    /*width: 75;*/
+}
+
+.descuento{
+    font-weight: bold;
+    font-size: 18px;
+    color: #028427;
+}
+
+.precio{
+    font-weight: bold;
+    font-size: 22px;
+    color: #CB3434;
+    margin-top: 25px;
+}
+
+.serviciosPromocion{
+    /*border: 1px solid black;*/
+    margin-top: 8%;
+    width: 90%;
+}
+
+.lblCategorias{
+    font-size: 16px;
+    margin-left: 5%;
+}
+
+.divServicio{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    background: #FAF7B4;
+    border-radius: 4px;
+}
+
+.lblCantidad{
+    font-size: 16px;
+}
+
+.txtCantidad{
+    font-size: 16px;
+    padding: 2px;
+    width: 15%;
+    text-align: center;
+    border: 1px solid gray;
+    outline: 0;
+}
+
+.btnAgregarCarrito{
+    padding: 5px 15px;
+    font-size: 14px;
+    background: #FCD442;
+    border: 2px solid #FCD442;
+    color: white;
+    border-radius: 4px;
+    margin-left: 90px;
+    outline: 0;
+}
+
+.btnAgregarCarrito:hover{
+    cursor: pointer;
+    background: #FAF7B4;
+    border: 2px solid #FAF7B4;
+}
+
+.btnAgregarCarrito span{
+    font-size: 18px;
+    margin-right: 4px;                
+}
+
+/*.lblFD{
+    display: inline-block;
+}*/
+
+.txtFD{
+    font-size: 16px;
+    padding: 2px;
+    width: 20%;
+    text-align: center;
+    border: 1px solid gray;
+    outline: 0;                
+    margin-right: 30px;
+}
+
+.txtFH{
+    font-size: 16px;
+    padding: 2px;
+    width: 20%;
+    text-align: center;
+    border: 1px solid gray;
+    outline: 0;        
+}
+
+#mensajes{
+    margin-top: 7%;
+    display: none;
+}
+
+#mensajes .informacion{
+    font-weight: normal;
+}
+
+.visor{
+	/*position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	background: black;
+	opacity: .7;
+	z-index: 100;*/
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+.divImagen{
+	display: none;
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	width: 50%;
+	height: 65%;
+	z-index:1002;
+	border: 10px solid white;
+	box-sizing: border-box;
+	border-radius: 10px;
+	/*border: 1px solid black;*/
+}
+.imagen{
+	width: 100%;
+	height: 100%;
+}
+                     
+.cerrar{
+    display: none;
+    width: 20px;
+    height: 20px;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 78%;
+    z-index: 1002;
+    font-size: 42px;
+}
+
+.cerrar:hover{
+    cursor: pointer;
+    color: #CB3434;
+}
+
+.imgProveedor:hover{
+    cursor: pointer;
+}

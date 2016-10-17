@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-oct-2016, 23:43:58
+    Author     : usuario
+*/
+
+.contenedorBusqueda{
+    position: relative;
+    width: 100%;
+    height: 797px;
+    margin: auto;
+    top: 107px;
+    padding:2% 21.5%;
+    overflow-y: auto;
+    z-index: 0;
+}
+
+.informacionResultados{
+    margin-top: 30%;
+    width: 82%;
+    height: 7%;
+    margin: auto;
+    padding: 1.5% 2%;
+    background: #FAF7B4;
+}
+
+.divOrden{
+    width: 29.9%;
+    display: inline-block;
+    float: right;
+    
+}
+
+.primero{
+    margin-top: 8%;
+}
+
+.informacionProducto{
+    width: 100%;
+    height: 170px;
+    border-bottom: 1px solid #CECCCC;
+    padding: 3%;
+}
+
+.imgProducto{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.datosDelProducto{
+    float: left;
+    margin-left: 10px;                
+    margin-top: 2%;
+}
+
+.nombreProducto{
+    font-size: 16px;
+}
+
+.nickProveedor{
+    font-size: 14px;
+    font-weight: normal;
+    color: grey;
+}
+
+.divPrecio{
+    font-weight: bold;
+    color: #CB3434;
+    float: right;
+    font-size: 16px;
+    margin-top: 7%;
+}
+
+.tipoProducto{
+    font-weight: normal;
+    font-size: 14px;
+    color: #84A8FB;
+}
+

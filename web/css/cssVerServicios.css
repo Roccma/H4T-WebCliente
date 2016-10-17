@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-oct-2016, 1:10:30
+    Author     : usuario
+*/
+
+.contenedorServicios{
+    position: relative;
+    width: 100%;
+    height: 797px;
+    margin: auto;
+    top: 107px;
+    padding:2% 21.5%;
+    overflow-y: auto;
+    z-index: 0;
+}
+
+.divCategorias{
+    top: 15%;
+    width: 15%;
+    height: 80%;
+    background-color: #FAF7B4;
+    margin-right: 5%;
+    position: fixed;
+    padding: 1% 1%;
+    overflow-x: auto;
+}
+
+.divInfoCategoria{
+    width: 72%;
+    height: 7%;
+    box-sizing: border-box;
+    margin-left: 30%;
+    padding: 1.6% 2%;
+    margin-bottom: 2%;
+    background-color: #FAF7B4;
+}
+
+.divInformacionServicio{
+    width: 72%;
+    height: 20%;
+    border-bottom: 1px solid #CECCCC;
+    box-sizing: border-box;
+    padding: 2%;
+    margin-left: 30%;
+}
+
+.imgServicio{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.divInformacionServicio a{
+    font-size: 16px;
+}
+
+.divPrecio{
+    width: 12%;
+    text-align: right;
+    position: relative;
+    top: -65%;
+    margin-left: 90%;
+    font-size: 16px;
+    /*z-index: -10;*/
+    color: #CB3434;
+    float: left;
+}
+
+.nombreServicio{
+    left: 22%;
+    width: 65%;
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.proveedorServicio{
+    color: grey;
+    font-weight: normal;
+}
+
+.listaCategorias {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  position: relative;
+}
+.listaCategorias .hija {
+  list-style-type: none;
+  border-left: 2px solid grey;
+  margin-left: 1em;
+}
+.listaCategorias .hija a {
+  padding-left: 1em;
+  position: relative;
+}
+.listaCategorias .hija a::before {
+  content:'';
+  position: absolute;
+  top: 0;
+  left: -2px;
+  bottom: 50%;
+  width: 0.75em;
+  border: 2px solid grey;
+  border-top: 0 none transparent;
+  border-right: 0 none transparent;
+}
+.listaCategorias ul > .hija:last-child {
+  border-left: 2px solid transparent;
+}
+                        
+.orden{
+    display: inline-block;
+    float: right;
+    margin-top: -.3%;
+}

@@ -1,0 +1,163 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-oct-2016, 1:08:08
+    Author     : usuario
+*/
+
+.contenedorReserva{
+    position: relative;
+    width: 1100px;
+    height: 675px;
+    margin: auto;
+    top: 125px;
+    padding:2%;
+    overflow-y: auto;
+}
+
+.tablaRes{
+    width:80%;
+    margin:auto;
+    border:2px solid #84A8FB;
+    
+}
+
+.tablaRes tr td {
+    padding: 3px 5px; 
+}
+
+.tablaRes tbody tr:nth-child(odd){
+    background-color:#E4E1E1; 
+    
+}
+.tablaRes tbody tr:nth-child(even){
+    background-color:#FBF7F7; 
+    
+}
+.titulo{
+    color:white;
+    background-color:#84A8FB;
+    text-align:center;
+}
+.columna{
+    color:white;
+    background-color:#BABABA;
+}
+
+.tablaRes .cNumero{
+    width:23%;
+}
+.tablaRes .cPrecio{
+    width:23%;
+}
+.tablaRes .cFecha{
+    width:23%;
+}
+.tablaRes .cEstado{
+    width:23%;
+}
+
+.tablaRes .cVer{
+    width:5%;
+    cursor:pointer;
+    text-align: center;
+    
+}
+
+.fa-share-square{
+    color: #BABABA;
+}
+
+.fa-share-square:hover{
+    color: #84A8FB;
+}
+
+.tablaRes tbody .cVer:hover{
+    color: #84A8FB;
+}
+.tablaProductosReserva{
+    border:1px solid black;
+    position: relative;
+    width: 90%;
+    height:10%; 
+    margin: auto;
+    top: 125px;
+    padding:2%;
+     border:2px solid #84A8FB;
+    
+}
+  .tablaProductosReserva tr td {
+    padding: 3px 5px; 
+}
+
+.tablaProductosReserva tbody tr:nth-child(odd){
+    background-color:#E4E1E1; 
+    
+}
+.tablaProductosReserva tbody tr:nth-child(even){
+    background-color:#FBF7F7; 
+    
+}
+.tablaProductosReserva .cNombre{
+    width:15%; 
+}
+.tablaProductosReserva .cProveedor{
+    width:15%; 
+}
+.tablaProductosReserva .cEmpresa{
+    width:10%; 
+}
+.tablaProductosReserva .cCantidad{
+    width:10%; 
+}
+.tablaProductosReserva .cPrecioUnit{
+    width:10%; 
+}
+.tablaProductosReserva .cTotalLinea{
+    width:10%; 
+}
+.tablaProductosReserva .cFechaIni{
+    width:10%; 
+}
+.tablaProductosReserva .cFechaFin{
+    width:10%; 
+}
+.tablaProductosReserva .cTipo{
+    width:10%; 
+}
+.tituloProd{
+    color:white;
+    background-color:#84A8FB;
+    text-align:center;
+}
+
+.cCancelar{
+    text-align: center;
+}
+
+.cancelar{                
+    color: #BABABA;
+}
+
+.cancelar:hover{
+    cursor: pointer;
+    color: #CB3434;
+}
+
+#mensajes{
+    width: 950px;
+    margin: auto;
+}
+
+.informacion{
+    font-weight: normal;
+}
+
+#mensajes{
+    display: none;
+    margin-top: 7%;
+}
+

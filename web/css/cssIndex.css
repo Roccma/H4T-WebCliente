@@ -1,0 +1,150 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-oct-2016, 23:09:15
+    Author     : usuario
+*/
+.contenedorInicio{
+    position: relative;
+    width: 100%;
+    height: 797px;
+    margin: auto;
+    top: 107px;
+    padding:2% 21.5%;
+    overflow-y: auto;
+    z-index: 0;
+    box-sizing: border-box;
+}  
+
+.titulo{
+    text-align: center;
+    color: #84A8FB;
+}
+
+.subtitulo{
+    text-align: center;
+    color: #FCD442;
+}
+
+/**** Estilos del slider ****/
+
+.slides{
+    width: 100%;
+    height: 75%;
+    float: left;
+    /*border: 1px solid black;*/
+}
+
+.slides img{
+    width: 100%;
+    height: auto;
+    margin-top: 35px;
+}
+.slidesjs-pagination{
+    float: right;
+    margin-left: 47%;
+    position: absolute;
+    top: 82%;
+    display: inline-block;
+}
+.slidesjs-pagination li{
+    float:left;
+    margin-left:5px;
+    list-style: none;                
+    
+    
+}
+.slidesjs-pagination li a{
+    display: block;
+    background: #FCD442;
+    float:left;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    width: 15px;
+    height: 15px;
+    text-decoration: none;
+    color:white;
+    font-size:0px;
+}
+.slidesjs-pagination li a:hover{
+    background: #FAF7B4;
+    color: #FAF7B4;
+}
+.slides .active{
+    background: #84A8FB;
+}
+.slidesjs-navigation{
+    text-decoration: none;
+    color: #FCD442;
+    display: inline-block;
+    float: left;
+    font-weight: bold;
+    font-size: 28px;
+    position: absolute;
+    top: 81%;
+}
+
+.icon-chevron-right{
+    margin-left: 25px;
+}
+
+.icon-controller-paus, .icon-controller-play{
+    margin-left: 55px;
+}
+
+.slidesjs-navigation:hover{
+    color: #FAF7B4;
+    text-decoration: none;
+}
+
+.slidesjs-navigation:active{
+    text-decoration: none;
+}            
+
+/********************/
+
+.subtituloOferta{
+    text-align: center;
+    z-index: 10000;
+    display: block;
+}
+
+.oferta img{
+    display: block;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 25px;
+}
+
+.oferta{
+    width: 20%;
+    height: 25%;
+    float: left;
+    margin-right: 6.5%;
+}
+
+.oferta:last-child{
+    margin-right: 0;
+}
+
+.oferta a{
+    font-size: 16px;
+    text-align: center;
+    display: block;
+}
+
+.promociones{
+    width: 100%;
+    margin-top: 465px;
+    margin-bottom: 250px;
+}
+
+.imgLogo{
+    display: block;
+    margin: auto;
+    margin-top: 27%;
+}

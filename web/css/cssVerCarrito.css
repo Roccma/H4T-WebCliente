@@ -1,0 +1,233 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-oct-2016, 0:08:40
+    Author     : usuario
+*/
+
+.contenedorCarrito{
+    /*border:1px solid black;*/
+    position: relative;
+    width: 100%;
+    height: 797px;
+    margin: auto;
+    top: 107px;
+    padding:2% 21.5%;
+    overflow-y: auto;
+    z-index: 0;
+}
+
+.longitud{
+    font-size: 54px;
+}
+ .tblCarrito{
+    width: 100%;
+    /*border: 1px solid black;*/
+    height: 200px;
+    border-bottom: 1px solid #CECCCC;
+    padding: 3%;
+}
+.imgCarrito{
+    width: 17%;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+}
+
+.datosProducto{
+    width: 100%;
+    /*border: 1px solid black;*/
+    height: 185px;
+    border-bottom: 1px solid #CECCCC;
+    padding: 3%;
+}
+.Fechas{
+    font-size: 14px;
+    text-align: left;
+    /*border: 1px solid black;*/
+    width: 25%;
+    float: left;
+    margin-top: 5px;                
+    font-weight: normal;               
+}
+.CantidadPrecio{
+    /*border: 1px solid black;*/
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    color: #CB3434;
+    float: left;
+    margin-top: 40px;
+    margin-left: 105px;
+    width: 100px;
+    text-align: right;
+}
+
+.nombreProducto{
+    margin-top: 15%;
+    font-size: 16px;
+}
+
+.Proveedor{
+    font-weight: normal;
+    color: grey;
+    font-size: 14px;
+}
+
+.nombreCarrito{
+    /*border: 1px solid black;*/
+    width: 30%;
+    margin-top: 12px;
+    float: left;
+}
+
+.Tipo{
+    font-weight: normal;
+    color: #84A8FB;
+}
+
+.Cantidad{
+    font-weight: normal;
+}
+
+.FechaInicio{
+    font-weight: normal;
+}
+
+.FechaFin{
+    font-weight: normal;
+}
+
+.Total{
+    float: left;
+}
+
+.subtotal{
+    /*border: 1px solid black;*/
+    text-align: right;
+    width: 89.8%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.mostrarSubtotal{
+    font-size: 21px;
+    color: #CB3434;
+}
+.Comprar{
+    padding: 5px 30px;
+    font-size: 14px;
+    background: #FCD442;
+    border: 2px solid #FCD442;
+    color: white;
+    border-radius: 4px;
+    margin-left: 30%;
+    outline: 0;
+}
+
+.Comprar:hover{
+    cursor: pointer;
+    background: #FAF7B4;
+    border: 2px solid #FAF7B4;
+}
+
+.Comprar span{
+    font-size: 18px;
+    margin-right: 4px;                
+}
+.Actualizar{
+    padding: 5px 30px;
+    font-size: 14px;
+    background: #FCD442;
+    border: 2px solid #FCD442;
+    color: white;
+    border-radius: 4px;
+    margin-left: 125px;
+    outline: 0;
+}
+
+.Actualizar:hover{
+    cursor: pointer;
+    background: #FAF7B4;
+    border: 2px solid #FAF7B4;
+}
+
+.Actualizar span{
+    font-size: 18px;
+    margin-right: 4px;                
+}
+
+.botones{
+    margin-top: 70px;
+    /*border: 1px solid black;*/
+}
+
+.PrecioUnitario{
+    font-weight: normal;
+}
+
+#errorCarrito{
+    display: none;
+    margin-top: 50px;
+}
+
+.fondoNegroCarrito{
+    display: none;
+    background: black;
+    opacity: .8;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1001;
+}
+
+.exito{
+    display: none;
+    border: 5px solid #407946;
+    border-radius: 5px;
+    color: #407946;
+    background: #B6F1BD;
+    z-index: 2000;
+    position: absolute;
+    padding: 25px;
+    width: 30%;
+    font-size: 18px;
+    text-align: center;
+    top: 37.5%;
+    left: 34.5%;
+}
+.tituloExito{
+    font-size: 22px;
+}
+
+.cerrarExito{
+    display: none;
+    color: white;
+    font-size: 42px;
+    position: absolute;
+    top: 25%;
+    left: 67.5%;
+    z-index: 2000;
+}
+
+.cerrarExito:hover{
+    cursor: pointer;
+    color: #CB3434;
+}
+.lblEliminarProducto{
+    font-size: 24px;
+    color: #CECCCC;
+    margin-top: 32.5px;
+    margin-left: 35px;
+}
+
+.lblEliminarProducto:hover{
+    cursor: pointer;
+    color: #CB3434;
+}

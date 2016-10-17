@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-oct-2016, 23:53:41
+    Author     : usuario
+*/
+
+.contenedorImagen{
+    position: relative;
+    width: 100%;
+    height: 797px;
+    margin: auto;
+    top: 107px;
+    padding: 2% 21.5%;
+    overflow-y: auto;
+    z-index: 0;
+}
+
+.lblFelicitaciones{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: -75px;
+}
+
+#frmImagen{
+    width: 57%;
+    text-align: center;
+}
+
+#imagenPerfil{
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 15px 10px 28px -9px rgba(0,0,0,0.75);
+    margin: auto;
+}
+
+#frmImagen h4{
+    margin-bottom: 50px;
+}
+
+.selFoto{
+    width:20%;
+    margin-left: 10px;
+    left: 39%;
+    top: 100%;
+    position: absolute;
+    background: #FCD442;
+    border: 2px solid #FCD442;
+    color:white;
+    padding:8px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 3%;
+    cursor: pointer;
+    outline: 0;
+}
+
+.selFoto:hover{
+    cursor: pointer;
+    background: #FAF7B4;
+    border: 2px solid #FAF7B4;
+}
+
+input[type = "file"]{
+    top:0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+#btnNo{
+    width:11%;
+    margin-left: 10px;
+    left: 30%;
+    position: absolute;
+    background: #FCD442;
+    border: 2px solid #FCD442;
+    color:white;
+    padding:8px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 35%;
+    cursor: pointer;
+    outline: 0;
+}
+
+#btnNo:hover{
+    cursor: pointer;
+    background: #FAF7B4;
+    border: 2px solid #FAF7B4;
+}
+
+#btnAceptar{
+    width:11%;
+    left: 55%;
+    position: absolute;
+    background: #FCD442;
+    border: 2px solid #FCD442;
+    color:white;
+    padding:8px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 35%;
+    cursor: pointer;
+    outline: 0;
+}
+
+#btnAceptar:hover{
+    cursor: pointer;
+    background: #FAF7B4;
+    border: 2px solid #FAF7B4;                
+}

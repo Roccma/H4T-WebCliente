@@ -1,0 +1,190 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-oct-2016, 0:33:13
+    Author     : usuario
+*/
+
+.contenedorInformacionProveedor{
+    /*border:1px solid black;*/
+    position: relative;
+    width: 100%;
+    height: 797px;
+    margin: auto;
+    top: 107px;
+    padding:2% 25%;
+    overflow-y: auto;
+    z-index: 0;
+}
+ .nombreProveedor{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5%;
+}
+ .imgProveedor{
+    width: 35%;
+    height: 35;
+    float: left;
+    margin-left: 5%;
+}
+  .tblProveedor tr td{
+    /*border: 1px solid black;*/
+    font-size: 16px;
+    padding: 15px;
+}
+
+.tblProveedor{
+    margin-left: 60%;
+}
+.serviciosProveedor{
+    /*border: 1px solid black;*/
+    margin-top: 10%;
+    width: 100%;
+}
+
+.lblCategorias{
+    font-size: 16px;
+    margin-left: 5%;
+}
+
+.divServicio{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    background: #FAF7B4;
+    border-radius: 4px;
+    
+}
+
+/**** Estilos del slider ****/
+
+.slides{
+    width: 35%;
+    height: auto;
+    float: left;
+}
+.unaImagen{
+    width: 35%;
+    height: auto;
+    float: left;
+}
+.slides img{
+    width: 100%;
+    height: 100%;
+    
+}
+.slidesjs-pagination{
+    margin-top:30px;
+    float: right;
+    margin-right: 10px;
+}
+.slidesjs-pagination li{
+    float:left;
+    margin-left:5px;
+    list-style: none;
+}
+.slidesjs-pagination li a{
+    display: block;
+    background: #FCD442;
+    float:left;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    width: 15px;
+    height: 15px;
+    text-decoration: none;
+    color:white;
+    font-size:0px;
+}
+.slidesjs-pagination li a:hover{
+    background: #FAF7B4;
+    color: #FAF7B4;
+}
+.slides .active{
+    background: #84A8FB;
+}
+.slidesjs-navigation{
+    text-decoration: none;
+    color: #FCD442;
+    margin-top: 25px;
+    display: inline-block;
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.slidesjs-navigation:hover{
+    color: #FAF7B4;
+    text-decoration: none;
+}
+
+.slidesjs-navigation:active{
+    text-decoration: none;
+}            
+
+/********************/
+
+.tblProveedor{
+    width: 470px;
+}
+
+.visor{	
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+.divImagen{
+	display: none;
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	width: 50%;
+	height: 65%;
+	z-index:1002;
+	border: 10px solid white;
+	box-sizing: border-box;
+	border-radius: 10px;
+	/*border: 1px solid black;*/
+}
+.imagen{
+	width: 100%;
+	height: 100%;
+}
+
+.cerrar{
+    display: none;
+    width: 20px;
+    height: 20px;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 78%;
+    z-index: 1002;
+    font-size: 42px;
+}
+
+.cerrar:hover{
+    cursor: pointer;
+    color: #CB3434;
+}
+
+.img:hover{
+    cursor: pointer;
+}
+
+.sinServicios{
+    font-size: 16px;
+    font-weight: normal;
+}

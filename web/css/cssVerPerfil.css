@@ -1,0 +1,363 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-oct-2016, 0:43:17
+    Author     : usuario
+*/
+
+.contenedorPerfil{
+    /*border:1px solid black;*/
+    position: relative;
+    width: 100%;
+    height: 785px;
+    margin: auto;
+    top: 107px;
+    padding:2% 21.5%;
+    overflow-y: auto;
+    /*z-index: 0;*/
+}
+
+.divPestanias{
+    /*border: 1px solid black;*/
+    width: 100%;
+    margin: auto;
+    margin-top: .5%;
+    height: 80%;
+}
+
+.pestanias{
+    height: 35px;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    z-index: 10;
+}
+
+.pestanias li{
+    float: left;
+    margin: auto;
+    height: 40px;
+    background: #84A8FB;
+    border-radius: 6px 6px 0 0;
+    z-index: 10;
+}
+
+.pestanias .seleccionada{
+    background: #fff;
+    border: solid #84A8FB;
+    border-width: 2px 2px 0 2px;
+    z-index: 10;
+    color: #84A8FB;
+}
+
+.pestanias .seleccionada a{                
+    color: #84A8FB;
+    /*z-index: 10;*/
+}
+
+.pestanias li a{
+    color: white;
+    z-index: 10;
+}
+
+.pestanias li a:link, .pestanias li a:active, .pestianias li a:visited{
+    line-height: 40px; 
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    padding: 2px 30px;
+}
+
+.pestanias li a:hover{
+    line-height: 40px; 
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    color: #EBFB87;
+    padding: 2px 30px;
+    border-radius: 6px 6px 0 0;
+    border-width: 2px 2px 0 2px;
+}
+
+.contenedorPestania{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: solid #84A8FB;
+    border-width: 0 2px 2px 2px;
+    padding: 20px;
+    position: relative;
+    top: 3px;
+    z-index: 0;
+    border-radius: 0 0 6px 6px;
+    background: white;
+    height: 100%;
+}           
+
+.informacionImgPerfil{
+    /*border: 1px solid blue;*/
+    width: 25%;
+    height: 100%;
+    /*z-index: 100;*/
+    float: left;
+}
+
+.informacionGeneral{
+    /*border: 1px solid yellow;*/
+    width: 75%;
+    height: 100%;
+    float: left;
+    z-index: 10000;
+}
+
+.divImagenPerfil{
+    height: 90%;
+    margin-top: 5%;                
+    border-right: 1px solid #84A8FB;
+}
+
+.imagenPerfil{
+    width: 72.5%;
+    height: 41%;
+    border-radius: 50%;
+    box-shadow: 15px 10px 28px -9px rgba(0,0,0,0.75);
+    margin: auto;
+    margin-left: 15%;
+    margin-top: 27%;
+}
+
+.nickname{
+    /*border: 1px solid black;*/
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 15%;
+}
+
+.tblInfoPerfil{
+    margin-left: 22.5%;
+    margin-top: 15%;
+    width: 65%;
+}
+
+.tblInfoPerfil tr td{
+    /*border: 1px solid black;*/
+    font-size: 16px;
+    padding: 15px;
+}
+
+.linea{
+    height: 2px;
+    background: #84A8FB;
+    width: 72.7%;
+    left: 27.3%;
+    position: relative;
+    top: 3px;
+}
+
+/*************************************/
+
+.informacionReservas{
+    /*border: 1px solid yellow;*/
+    width: 75%;
+    height: 100%;
+    /*z-index: 100;*/
+    float: left;
+    overflow-y: auto;
+}
+
+.tablaRes{
+    width:80%;
+    margin:auto;
+    margin-top: 5%;
+    border:2px solid #84A8FB;
+    z-index: 100;
+    
+}
+
+.tablaRes tr td {
+    padding: 3px 5px;
+    z-index: 1000;
+}
+
+.tablaRes tbody tr:nth-child(odd){
+    background-color:#E4E1E1; 
+    
+}
+.tablaRes tbody tr:nth-child(even){
+    background-color:#FBF7F7; 
+    
+}
+.titulo{
+    color:white;
+    background-color:#84A8FB;
+    text-align:center;
+}
+.columna{
+    color:white;
+    background-color:#BABABA;
+}
+
+.tablaRes .cNumero{
+    width:23%;
+}
+.tablaRes .cPrecio{
+    width:23%;
+}
+.tablaRes .cFecha{
+    width:23%;
+}
+.tablaRes .cEstado{
+    width:23%;
+}
+
+.tablaRes .cVer{
+    width:5%;
+    cursor:pointer;
+    text-align: center;
+    
+}
+
+.tablaRes tbody .cVer:hover{
+    color: #84A8FB;
+}
+.tablaProductosReserva{
+    border:1px solid black;
+    position: relative;
+    width: 95%;
+    height:10%; 
+    margin: auto;
+    top: 125px;
+    padding:2%;
+     border:2px solid #84A8FB;
+    
+}
+  .tablaProductosReserva tr td {
+    padding: 3px 5px; 
+}
+
+.tablaProductosReserva tbody tr:nth-child(odd){
+    background-color:#E4E1E1; 
+    
+}
+.tablaProductosReserva tbody tr:nth-child(even){
+    background-color:#FBF7F7; 
+    
+}
+.tablaProductosReserva .cNombre{
+    width:10%; 
+}
+.tablaProductosReserva .cProveedor{
+    width:10%; 
+}
+.tablaProductosReserva .cEmpresa{
+    width:10%; 
+}
+.tablaProductosReserva .cCantidad{
+    width:5%; 
+}
+.tablaProductosReserva .cPrecioUnit{
+    width:9%; 
+}
+.tablaProductosReserva .cTotalLinea{
+    width:9%; 
+}
+.tablaProductosReserva .cFechaIni{
+    width:10%; 
+}
+.tablaProductosReserva .cFechaFin{
+    width:10%; 
+}
+.tablaProductosReserva .cTipo{
+    width:10%; 
+}
+.tituloProd{
+    color:white;
+    background-color:#84A8FB;
+    text-align:center;
+}           
+
+.fa-share-square{
+    color: #BABABA;
+}
+
+.fa-share-square:hover{
+    color: #84A8FB;
+}            
+
+.cCancelar{
+    text-align: center;
+}
+
+.cancelar{                
+    color: #BABABA;
+}
+
+.cancelar:hover{
+    cursor: pointer;
+    color: #CB3434;
+}            
+.informacion{
+    font-weight: normal;
+}
+
+#mensajes{
+    margin-top: 5%;
+    display: none;
+}
+
+.visor{
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+.divImagen{
+	display: none;
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	width: 50%;
+	height: 65%;
+	z-index:1002;
+	border: 10px solid white;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+.imagen{
+	width: 100%;
+	height: 100%;
+}
+
+.cerrar{
+    display: none;
+    width: 20px;
+    height: 20px;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 78%;
+    z-index: 1002;
+    font-size: 42px;
+}
+
+.cerrar:hover{
+    cursor: pointer;
+    color: #CB3434;
+}
+
+.imagenPerfil{
+    cursor: pointer;
+}
+

@@ -1,0 +1,398 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-oct-2016, 23:25:19
+    Author     : usuario
+*/
+
+.headerContainer{
+    position: absolute;
+    width:100%;
+    top:0;
+    height:70px;
+    background-color: #FCD442;
+ }
+ .secondHeader{
+    position: absolute;
+    margin-top:70px;
+    width:100%;
+    height:36px;
+    background-color:#84A8FB;
+ }
+ .secondHeaderButton{
+    background-color:inherit;
+    border:0px;
+ }
+ .secondHeaderCenter{
+    position:relative;
+    margin: auto;
+    width:1100px;
+    height:100%;
+ }   
+ .headerCentered{
+    position:relative;
+    width: 1100px;
+    height: 100%;
+    margin: 0px auto;
+ }
+ .IconPanelLeftSide{
+    height:100%;
+    width:10%;
+    position:absolute;
+ }
+ .searcherMiddle{
+    top:18px;
+    position:absolute;
+    left:15%;
+    width:50%;
+    font-family: verdana;
+ }
+ .infoRegistroRightSide{
+    position:absolute;
+    top:10%;
+    left: 70%;
+    height:80%;
+    width:30%;
+ }
+ .registrarseBotonDiv{
+    position: absolute;
+    left:5px;
+    width:30%;
+    height:100%;
+ }
+ .registrarseBoton{
+   background-color:inherit; 
+   width:100%;
+   height:100%;
+   border:0px;
+   color: grey;
+ }
+ .registrarseBoton:hover{
+    font-size: 20px;
+    color: black;
+ }
+ .loginDiv{
+    position: absolute;
+    left:35%;
+    width:30%;
+    height:100%;
+ }
+ .loginBoton{
+    background-color: inherit;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    color: grey;
+ }
+ .loginBoton:hover{
+    font-size: 20px;
+    color:black;
+ }
+ .ayudaBotonDiv{
+    position: absolute;
+    /*right:0px;*/        
+    left: 75%;
+    height: 100%;
+    width:57%;
+    top: .5%;
+    /*border: 1px solid black;*/
+ }
+ .ayudaBoton{
+    background-color: #FCD442;
+    width: 50%;
+    height: 100%;
+    border: 0px;
+    color: grey;
+    outline: 0;
+    float: right;
+    /*border: 1px solid black;*/
+    /*margin-right: 0;
+    margin-left: */
+ }
+ .ayudaBoton:hover{
+    color: white;
+ }
+.personalizado{
+    width: 25% !important;
+}
+#iconPanel:hover{
+    cursor: pointer;
+}
+
+.menuPrincipal{
+    list-style: none;
+    /*border: 1px solid black;*/
+}
+
+.submenuPrincipal{
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+}
+
+.submenuPrincipal a{
+    color: white;
+    text-decoration: none;
+    display:block;
+    /*font-weight: bold;*/
+    padding: 0px 12px;
+    height: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.submenuPrincipal a:hover{
+    /*background-color: #A5BEF7;*/
+    text-decoration: none;
+    cursor: pointer;
+    color: #EBFB87;
+}
+
+.submenuPrincipal i{
+    margin-right: 10px;
+}
+
+.imgPerfil{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    /*float: right;*/
+}
+                               
+
+.infoLogueado{
+    margin-top: 3.5%;
+    /*border: 1px solid black;*/
+    width: 67%;
+    float: left;
+    color: grey;
+    margin-left: -40px;
+}
+
+.infoLogueado label{
+    
+    cursor: pointer;
+    /*float: left;*/
+    /*border: 1px solid black;*/
+}
+
+.infoLogueado:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.lstLogueado{
+    list-style: none;
+}
+
+.lstLogueado > li{
+    /*border: 1px solid black;*/
+    height: 55px;
+}
+
+.opcionesLogueado{
+    list-style: none;
+    display: none;
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -14%;
+    z-index: 1000;
+}
+
+.opcionesLogueado > li{
+    position: relative;
+    /*border: 1px solid black;*/
+    width: 175px;
+    padding: 5px 10px;
+    background-color: #FAC506;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.opcionesLogueado li a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+}
+
+.opcionesLogueado > li a:hover{
+    cursor: pointer;
+    color: grey;
+}
+
+body{
+    background: url(../images/fondo.png);
+}    
+
+#buscarCampo{
+    width: 85%;
+    outline: 0;
+}
+
+#btnBuscarServProm{
+    display: inline-block;
+    position: relative;
+    left: -200%;
+    outline: 0;
+}
+
+#ladoDerechoSignup{
+    margin-left: -8%;
+}
+
+.carrito{
+    /*border: 1px solid black;*/
+    /*background: black;*/
+    text-align: center;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;        
+    float: left;
+    margin-top: 5%;        
+    background: grey;        
+    color: #FCD442;
+}
+
+.carrito:active{
+    color: #FCD442;
+}
+
+.carrito:link{
+    color: #FCD442;
+}
+
+.carrito:visited{
+    color: #FCD442;
+}
+
+.carrito span{
+    margin-top: 20%;
+    margin-left: -5%;
+    font-size: 20px;
+    color: #FCD442;
+}
+
+.carrito:hover{
+    cursor: pointer;
+    background: white;
+}
+
+.logoH4T:hover{
+   content: url("../images/logoIluminado.png");
+}
+
+.submenuDatosSistema{
+    list-style: none;
+    display: none;
+    position: absolute;
+    margin-top: 1.45%;
+    margin-left: -5%;
+    z-index: 900;
+}
+
+.submenuDatosSistema > li{
+    position: relative;
+    /*border: 1px solid black;*/
+    width: 232px;
+    padding: 8px 10px;
+    background-color: #5E8DFA;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.submenuDatosSistema li a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+}
+
+.submenuDatosSistema > li a:hover{
+    cursor: pointer;
+    color: #EBFB87;
+}
+
+.fondoNegro{
+    display: none;
+    background: black;
+    opacity: .8;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1001;
+}
+
+.mensaje{
+    display:none;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    background: white;
+    color: black;
+    z-index: 1002;
+    background: #CCEFFB;
+    padding: 2%;
+    border: 5px solid #84A8FB;
+    border-radius: 5px;
+    color: #84A8FB;
+    margin:auto;
+    width: 25%;
+    text-align: center;
+}
+
+.mensajeEliminar{
+    display:none;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    background: white;
+    color: black;
+    z-index: 1002;
+    background: #CCEFFB;
+    padding: 2%;
+    border: 5px solid #84A8FB;
+    border-radius: 5px;
+    color: #84A8FB;
+    margin:auto;
+    width: 25%;
+    text-align: center;
+}
+
+.informacionDatos{
+    position: relative;
+    top: -5px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.cerrarMensaje{
+    display: none;
+    width: 20px;
+    height: 20px;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 67%;
+    z-index: 1002;
+    font-size: 42px;
+}
+                    
+.cerrarMensaje:hover{
+    cursor: pointer;
+    color: #CB3434;
+}
+
+.fa-check{
+    font-size: 42px;
+}
